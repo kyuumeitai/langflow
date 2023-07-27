@@ -75,6 +75,8 @@ documentloaders:
     documentation: "https://python.langchain.com/docs/modules/data_connection/document_loaders/integrations/microsoft_word"
   WebBaseLoader:
     documentation: "https://python.langchain.com/docs/modules/data_connection/document_loaders/integrations/web_base"
+  SitemapLoader:
+    documentation: "https://python.langchain.com/docs/integrations/document_loaders/sitemap"
   AZLyricsLoader:
     documentation: "https://python.langchain.com/docs/modules/data_connection/document_loaders/integrations/azlyrics"
   CollegeConfidentialLoader:

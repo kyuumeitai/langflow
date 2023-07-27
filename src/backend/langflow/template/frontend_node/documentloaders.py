@@ -118,6 +118,10 @@ class DocumentLoaderFrontNode(FrontendNode):
             "GutenbergLoader",
         }:
             name = "web_path"
+        elif self.template.type_name in {"SitemapLoader"}:
+            name = "web_path"
+            display_name = "XML url"
+            
         elif self.template.type_name in {"GutenbergLoader"}:
             name = "file_path"
         elif self.template.type_name in {"GitbookLoader"}:
